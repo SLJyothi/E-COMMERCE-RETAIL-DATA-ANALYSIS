@@ -31,7 +31,7 @@ preferences, and customer segmentation. This analysis will enable us to optimize
  SELECT TOP 1 store_type AS most_frequent_channel, COUNT(*) AS transaction_count FROM Transactions group by store_type order by COUNT(*) DESC
    ## -(Result)
    
-  ###![BO1](https://github.com/SLJyothi/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164232591/fd7c06cf-eac0-411d-983e-31f0b0302ee9)
+  ### ![BO1](https://github.com/SLJyothi/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164232591/fd7c06cf-eac0-411d-983e-31f0b0302ee9)
 
 
  ## -(Object Result) 
@@ -43,7 +43,8 @@ The analysis of transaction data from the 'Transactions' table reveals that the 
 SELECT Gender, COUNT(*) AS Count FROM Customers GROUP BY Gender;
  ## -(Result)
  
-## ![image](https://github.com/Himanshu2112000/Data_Analysis_Retail_business_SQL/assets/164239242/4fe07b62-23db-4ede-8b94-e4f491a8275f)
+## ![BO2](https://github.com/SLJyothi/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164232591/5e8c1828-102a-4722-8b69-e36adc6d49c9)
+
 
 ## -(Object Result) 
 The analysis of customer data from the 'Customers' table provides a breakdown of gender distribution among customers. The query grouped customers by gender and counted the number of occurrences for each gender category. This data offers valuable insights into the demographic composition of the customer base, allowing for targeted marketing strategies and personalized promotions. Understanding the gender distribution can help the retail store tailor its product offerings, advertising campaigns, and customer engagement initiatives to better resonate with different customer segments, ultimately driving sales and enhancing customer satisfaction."
