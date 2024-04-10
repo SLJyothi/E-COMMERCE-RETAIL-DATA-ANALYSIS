@@ -31,7 +31,8 @@ preferences, and customer segmentation. This analysis will enable us to optimize
  SELECT TOP 1 store_type AS most_frequent_channel, COUNT(*) AS transaction_count FROM Transactions group by store_type order by COUNT(*) DESC
    ## -(Result)
    
-  ### ![image](https://github.com/Himanshu2112000/Data_Analysis_Retail_business_SQL/assets/164239242/590f88bc-4d83-43ef-9a34-44571dd6b5c1)
+  ###![BO1](https://github.com/SLJyothi/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164232591/fd7c06cf-eac0-411d-983e-31f0b0302ee9)
+
 
  ## -(Object Result) 
 The analysis of transaction data from the 'Transactions' table reveals that the store type 'most_frequent_channel' is the most popular channel based on transaction count. The query identified the store type with the highest number of transactions, providing valuable insights into customer preferences and channel effectiveness. This information can be utilized by the retail store to prioritize marketing efforts, optimize inventory for the most frequented channels, and enhance overall business strategies to capitalize on the most popular sales channels and drive revenue growth.
