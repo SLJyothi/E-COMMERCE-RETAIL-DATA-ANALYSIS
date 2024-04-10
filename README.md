@@ -55,7 +55,7 @@ The analysis of customer data from the 'Customers' table provides a breakdown of
 SELECT TOP 1 city_code AS city_code , COUNT(*) AS number_customer FROM customers GROUP BY city_code ORDER BY COUNT(*) DESC;
  ## -(Result)
 
- ## ![image](https://github.com/Himanshu2112000/Data_Analysis_Retail_business_SQL/assets/164239242/648cc03c-181e-4a43-a364-240c17aac812)
+ ## ![3](https://github.com/SLJyothi/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164232591/b2ef80ca-6ee7-40a6-8f4a-4b17c1a56a7e)
 
  ## -(Object Result)  
 The analysis of customer data from the 'Customers' table reveals the city with the highest number of customers based on city_code. The query identified the city_code with the largest customer base, providing critical insights into regional customer distribution. This information can be leveraged to focus marketing efforts, tailor promotions, and optimize inventory to meet the demands of the most populated city. Understanding the geographic distribution of customers enables the retail store to implement targeted strategies, expand market reach, and enhance customer engagement to drive sales and foster brand loyalty in key regions.
@@ -66,7 +66,7 @@ The analysis of customer data from the 'Customers' table reveals the city with t
  Select count(*) as no_subcategory from prod_cat_info where prod_cat = 'books'
   ## -(Result)
 
-  ## ![image](https://github.com/Himanshu2112000/Data_Analysis_Retail_business_SQL/assets/164239242/1bb3ad41-baf0-4c7f-9d96-64df012db9a6)
+  ## ![4](https://github.com/SLJyothi/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164232591/38363f54-4383-443f-8f85-5239c7f25529)
 
   ## -(Object Result)
  The query on 'prod_cat_info' indicates the count of subcategories under the 'books' category. This insight informs inventory and marketing 
@@ -79,7 +79,8 @@ The analysis of customer data from the 'Customers' table reveals the city with t
   GROUP BY p.prod_cat;
    ## -(Result)
 
- ## ![image](https://github.com/Himanshu2112000/Data_Analysis_Retail_business_SQL/assets/164239242/84c446bd-3415-4088-aa69-1420805e2f91)
+ ## ![5](https://github.com/SLJyothi/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164232591/565b2694-ce59-483e-b3d3-276f781a5950)
+
 
   ## -(Object Result)
  The query joins 'Transactions' with 'prod_cat_info' to count products by category. Grouped by product category (p.prod_cat), it provides 
