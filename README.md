@@ -94,7 +94,7 @@ The analysis of customer data from the 'Customers' table reveals the city with t
   pc.prod_cat_code where pc.prod_cat in ('electronics','books') group by pc.prod_cat
    ## -(Result)
    
-## ![image](https://github.com/Himanshu2112000/Data_Analysis_Retail_business_SQL/assets/164239242/73ff53b2-6538-49d1-b5a0-1f43cbea1b20)
+## ![6](https://github.com/SLJyothi/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164232591/4ecda255-1d88-4eee-96fe-835ae9e6ac9c)
 
  ## -(Object Result)
 The query calculates the total revenue for distinct product categories, specifically 'electronics' and 'books', by joining 'Transactions' with 'prod_cat_info' on matching product category codes. The results offer insights into revenue generated from these two product categories individually. This analysis assists in evaluating the performance of 'electronics' and 'books' segments and guiding targeted marketing and inventory strategies to optimize sales and profitability
